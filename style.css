@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x:hidden ;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+.carousel-item img{
+    width: 80%;
+    height: 80vh;
+    padding-left:40px ;
+    padding-right:40px ;
+    
+}
+.row img{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+/* Add this CSS to your existing stylesheet or in a style tag within your HTML file */
+.larger-image {
+    max-width: 10000px; /* Set the maximum width to 100% to make the image responsive */
+    height: 1000px;    /* Automatically adjust the height based on the width */
+}
